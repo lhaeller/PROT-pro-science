@@ -17,7 +17,7 @@
 <body>
 
 	<!-- navigation .start  --> <!-- including "burger menu" --> <!-- based on exercise "index_06_Burgernavigation_loesung.html" -->
-	<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
 		<a class="navbar-brand" href="#">Profil</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 			<span class="navbar-toggler-icon"></span>
@@ -76,14 +76,24 @@
 
 	<!-- container .start -->
     <div class="container">
-    	<!-- something like: 
-    	
-    	<div class="row">
-        	<div class="col-md-4">
+        <div class="text-center" id="information">
+            <img src="ProfilePic-Platzhalter.png" class="rounded-circle w-25 p-3" alt="Profilbild">
+            <p>Max Muster</p>
+        </div>
+        
+        <div id="action">
+            <a href="#"> Highscore</a> <br>
+            <a href="#chat" data-toggle="collapse">Chat</a><br>
+                <div id="chat" class="collapse" style="margin-left: 2vh">
+                    <a href="#">Nachricht schreiben</a> <br>
+                    <a href="#">In Gruppe einladen</a>
+                </div>
+            <a href="#">Person Blockieren</a>
 
-        etc. -->
-
-        <!-- this is where the content of the website is to be added -->
+             
+    
+        </div>
+        
 
 
 
