@@ -1,6 +1,6 @@
-/* navigation-extra only expands on small screens */
+/* extra to keep content fully visible */
 .navigation-extra{
-    min-height: 0px;
+    min-height: 90px;
 }
 
 /* based on https://www.geeksforgeeks.org/css-font-border/ */
@@ -72,14 +72,6 @@ and taken from https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp *
     right: 35px;
   }
 }
-
-@media screen and (max-height: 690px){
-  /* expand this block if screen is small */
-  .navigation-extra{
-    min-height: 90px;
-  }  
-}
-
 
 /* some extra css to make the nav-text black */
 nav .overlay-content li a{
